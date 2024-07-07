@@ -1,0 +1,18 @@
+{
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"extends": ["ixn-next"],
+	"rules": {
+		"prettier/prettier": "off",
+
+		"no-console": "error",
+		"no-await-in-loop": "off",
+		"no-restricted-syntax": "off",
+		"no-continue": "off",
+		"no-underscore-dangle": "off",
+		"max-classes-per-file": "off",
+
+		"react/no-unstable-nested-components": "off"
+	}
+}

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply flex min-h-screen flex-col !bg-background font-sans text-base font-normal !text-secondary dark:!bg-background-dark dark:!text-secondary-dark;
+	}
+}
+
+@layer components {
+	h1 {
+		@apply text-4xl font-bold text-primary dark:text-primary-dark;
+	}
+
+	h2 {
+		@apply text-3xl font-bold text-primary dark:text-primary-dark;
+	}
+
+	h3 {
+		@apply text-2xl font-bold text-primary dark:text-primary-dark;
+	}
+
+	h4 {
+		@apply text-xl font-bold text-primary dark:text-primary-dark;
+	}
+
+	h5 {
+		@apply text-lg font-bold text-primary dark:text-primary-dark;
+	}
+
+	h6 {
+		@apply text-base font-bold text-primary dark:text-primary-dark;
+	}
+
+	svg {
+		@apply fill-current;
+	}
+}
